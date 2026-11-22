@@ -1,0 +1,47 @@
+# Vudia
+
+> Vudia is a software studio building focused apps for teams that work in Jira. Apps for Jira Cloud: estimation, default values, project cost and time in status.
+
+Vudia apps are Jira Cloud apps built on Atlassian Forge and listed on the Atlassian Marketplace.
+Vendor page on the Atlassian Marketplace: https://marketplace.atlassian.com/vendors/948520489/vudia
+Support: info@vudia.site
+
+## Apps
+
+- [Poker ++ for Jira](https://vudia.site/apps/poker-for-jira/): Real-time Planning Poker inside Jira: secret votes, story points or time estimates, round timers, saved straight to Jira. Also called: Planning Poker for Jira.
+- [Smart Defaults](https://vudia.site/apps/smart-defaults/): Pre-fill the Jira Create dialog with default values for each project and issue type.
+- [Cost Tracker ++ for Jira](https://vudia.site/apps/cost-tracker-for-jira/): Calculate Jira project cost from logged time and hourly rates, and track it against budget and revenue. Also called: Cost Tracker by Vudia.
+- [Time in Status + Gadget](https://vudia.site/apps/time-in-status-gadget/): How long every open issue has sat in its status, oldest first, right on your Jira dashboard. Also called: Time in Status Gadget for Jira.
+
+## Atlassian Marketplace listings
+
+- [Poker ++ for Jira on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/36487747/poker-for-jira): Backlog estimation as a fast, secret-vote round. Cards stay hidden until the facilitator reveals them all at once, so the team sees where they disagree — and the agreed number goes straight into Jira.
+- [Smart Defaults on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/2494740556/smart-defaults): Set default values for the Jira Create dialog per project and issue type: priority, assignee, labels, components, versions, dates, description templates and custom fields, with dynamic values like {today+7} and {currentUser}.
+- [Cost Tracker ++ for Jira on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/2743016176/cost-tracker-for-jira): Cost Tracker takes the time your team already logs in Jira and multiplies it by hourly rates to get project cost. Add expenses and revenue, compare with the budget, and see profit for each project and across portfolios.
+- [Time in Status + Gadget on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/3362333248/time-in-status-gadget): Time in status for open work: how long each issue has been in progress, waiting in To Do or untouched, oldest first, flagged late or overdue against your team's own pace. A live dashboard gadget, not a history report.
+
+## Documentation
+
+- [Poker ++ for Jira documentation](https://docs.vudia.site/): User guide for Poker ++ for Jira.
+- [Smart Defaults documentation](https://smart-defaults.vudia.site/): User guide for Smart Defaults.
+- [Cost Tracker ++ for Jira documentation](https://cost.vudia.site/): User guide for Cost Tracker ++ for Jira.
+- [Time in Status + Gadget documentation](https://aging.vudia.site/): User guide for Time in Status + Gadget.
+
+## Company
+
+- [About Vudia](https://vudia.site/about/): Who we are, how to contact us and where to report a security issue.
+
+## Policies
+
+- [Poker ++ for Jira privacy policy](https://docs.vudia.site/privacy.html): What Poker ++ for Jira reads from Jira and what it stores.
+- [Poker ++ for Jira security policy](https://docs.vudia.site/security.html): How Poker ++ for Jira is built and how to report a security issue.
+- [Smart Defaults privacy policy](https://smart-defaults.vudia.site/privacy.html): What Smart Defaults reads from Jira and what it stores.
+- [Smart Defaults security policy](https://smart-defaults.vudia.site/security.html): How Smart Defaults is built and how to report a security issue.
+- [Cost Tracker ++ for Jira privacy policy](https://cost.vudia.site/privacy.html): What Cost Tracker ++ for Jira reads from Jira and what it stores.
+- [Cost Tracker ++ for Jira security policy](https://cost.vudia.site/security.html): How Cost Tracker ++ for Jira is built and how to report a security issue.
+- [Time in Status + Gadget privacy policy](https://aging.vudia.site/privacy): What Time in Status + Gadget reads from Jira and what it stores.
+- [Time in Status + Gadget security policy](https://aging.vudia.site/security): How Time in Status + Gadget is built and how to report a security issue.
+
+## Sitemap
+
+- [XML sitemap](https://vudia.site/sitemap.xml): Every page of vudia.site.

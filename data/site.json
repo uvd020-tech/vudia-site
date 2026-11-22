@@ -1,0 +1,242 @@
+{
+ "name": "Vudia",
+ "url": "https://vudia.site",
+ "email": "info@vudia.site",
+ "securityEmail": "security@vudia.site",
+ "hours": "Mon-Fri 10:00 AM - 7:00 PM GMT+3",
+ "tagline": "Apps for teams that work in Jira",
+ "about": [
+  "Vudia is a software studio building focused apps for teams that work in Jira.",
+  "Our goal is simple: solve real, everyday problems for agile and cross-functional teams with clean, intuitive tools that don't get in the way. No bloat, no unnecessary complexity, just apps that do their job well and are easy to set up.",
+  "Have feedback, a bug to report, or an idea for a feature? Reach out anytime — we read every message and use it to shape what we build next."
+ ],
+ "marketplaceVendor": "https://marketplace.atlassian.com/vendors/948520489/vudia",
+ "apps": [
+  {
+   "slug": "poker-for-jira",
+   "name": "Poker ++ for Jira",
+   "alsoKnownAs": [
+    "Planning Poker for Jira"
+   ],
+   "tagline": "Real-time Planning Poker inside Jira: secret votes, story points or time estimates, round timers, saved straight to Jira",
+   "description": "Backlog estimation as a fast, secret-vote round. Cards stay hidden until the facilitator reveals them all at once, so the team sees where they disagree — and the agreed number goes straight into Jira.",
+   "listing": "https://marketplace.atlassian.com/apps/36487747/poker-for-jira",
+   "docsHome": "https://docs.vudia.site/",
+   "privacy": "https://docs.vudia.site/privacy.html",
+   "security": "https://docs.vudia.site/security.html",
+   "facts": [
+    "Jira Cloud app, built on Atlassian Forge",
+    "Runs on Atlassian infrastructure and makes no outbound network calls",
+    "Free for up to 10 users"
+   ],
+   "docPages": [
+    {
+     "title": "Overview",
+     "url": "https://docs.vudia.site/",
+     "desc": "Planning Poker for Jira Cloud: the team votes on work items in secret, all cards are revealed at once, and the agreed estimate is saved to the Story Points field or the original time estimate."
+    },
+    {
+     "title": "Game basics",
+     "url": "https://docs.vudia.site/game-basics.html",
+     "desc": "Roles, card decks, estimation fields and the terms used in Planning Poker for Jira, to read before configuring your first game."
+    },
+    {
+     "title": "Create a game",
+     "url": "https://docs.vudia.site/create-a-game.html",
+     "desc": "How to create a Planning Poker game in Jira: game settings, card deck, estimators, and choosing the work items to estimate by filter or JQL."
+    },
+    {
+     "title": "Game flow",
+     "url": "https://docs.vudia.site/game-flow.html",
+     "desc": "How a Planning Poker round runs in Jira: secret voting, notes, the round timer, Suggest estimate, revealing votes, re-voting and saving the final estimate."
+    },
+    {
+     "title": "Manage games",
+     "url": "https://docs.vudia.site/manage-games.html",
+     "desc": "The Games screen of Planning Poker for Jira: search and filters, cloning a game, copying its link, reports and CSV export."
+    },
+    {
+     "title": "Jira configuration",
+     "url": "https://docs.vudia.site/jira-configuration.html",
+     "desc": "What Jira needs so Planning Poker can save estimates: the Story Points or original estimate field on the work item screen, and how to fix write errors."
+    },
+    {
+     "title": "FAQ",
+     "url": "https://docs.vudia.site/faq.html",
+     "desc": "Answers to common questions about Planning Poker for Jira: finding the app, inviting the team, why someone cannot vote, the ∞ and ☕ cards, split votes, and where estimates are written in Jira."
+    },
+    {
+     "title": "Support",
+     "url": "https://docs.vudia.site/support.html",
+     "desc": "How to get help with Planning Poker for Jira, report a problem or request a feature."
+    }
+   ]
+  },
+  {
+   "slug": "smart-defaults",
+   "name": "Smart Defaults",
+   "alsoKnownAs": [],
+   "tagline": "Pre-fill the Jira Create dialog with default values for each project and issue type",
+   "description": "Set default values for the Jira Create dialog per project and issue type: priority, assignee, labels, components, versions, dates, description templates and custom fields, with dynamic values like {today+7} and {currentUser}.",
+   "listing": "https://marketplace.atlassian.com/apps/2494740556/smart-defaults",
+   "docsHome": "https://smart-defaults.vudia.site/",
+   "privacy": "https://smart-defaults.vudia.site/privacy.html",
+   "security": "https://smart-defaults.vudia.site/security.html",
+   "facts": [
+    "Jira Cloud app, built on Atlassian Forge",
+    "Runs on Atlassian infrastructure and declares no external permissions",
+    "Free for up to 10 users"
+   ],
+   "docPages": [
+    {
+     "title": "Rules and fields",
+     "url": "https://smart-defaults.vudia.site/rules.html",
+     "desc": "Supported fields, values, {currentUser} and {today}, description formatting, limits"
+    },
+    {
+     "title": "FAQ",
+     "url": "https://smart-defaults.vudia.site/faq.html",
+     "desc": "Why a default was not applied, sub-tasks, uninstalling"
+    },
+    {
+     "title": "Support",
+     "url": "https://smart-defaults.vudia.site/support.html",
+     "desc": "How to reach us and what to include"
+    }
+   ]
+  },
+  {
+   "slug": "cost-tracker-for-jira",
+   "name": "Cost Tracker ++ for Jira",
+   "alsoKnownAs": [
+    "Cost Tracker by Vudia"
+   ],
+   "tagline": "Calculate Jira project cost from logged time and hourly rates, and track it against budget and revenue",
+   "description": "Cost Tracker takes the time your team already logs in Jira and multiplies it by hourly rates to get project cost. Add expenses and revenue, compare with the budget, and see profit for each project and across portfolios.",
+   "listing": "https://marketplace.atlassian.com/apps/2743016176/cost-tracker-for-jira",
+   "docsHome": "https://cost.vudia.site/",
+   "privacy": "https://cost.vudia.site/privacy.html",
+   "security": "https://cost.vudia.site/security.html",
+   "facts": [
+    "Jira Cloud app, built on Atlassian Forge",
+    "Free for up to 10 users"
+   ],
+   "docPages": [
+    {
+     "title": "Quick start",
+     "url": "https://cost.vudia.site/quick-start.html",
+     "desc": "Create a cost project, set rates and see real numbers in about ten minutes. The same example is used throughout these docs."
+    },
+    {
+     "title": "How cost is calculated",
+     "url": "https://cost.vudia.site/how-cost-works.html",
+     "desc": "From a Jira worklog to a number on the Overview: what is read, how each hour is priced, and what is added."
+    },
+    {
+     "title": "Rates, roles and the team",
+     "url": "https://cost.vudia.site/rates.html",
+     "desc": "How an hourly rate is chosen for each worklog, how roles and cost accounts fit in, and how to change a rate without rewriting history."
+    },
+    {
+     "title": "Cost projects and scope",
+     "url": "https://cost.vudia.site/projects.html",
+     "desc": "Create and manage cost projects: what a scope is, the project tabs, the Projects table, statuses, attributes and changing the type or currency."
+    },
+    {
+     "title": "Expenses",
+     "url": "https://cost.vudia.site/expenses.html",
+     "desc": "Record costs that do not come from logged time, one-off or recurring, and see them counted in actual cost and the forecast."
+    },
+    {
+     "title": "Revenue and profit",
+     "url": "https://cost.vudia.site/revenue.html",
+     "desc": "Track what a project earns, by billable hours or as a fixed price, and see profit and margin next to cost."
+    },
+    {
+     "title": "Budget and milestones",
+     "url": "https://cost.vudia.site/budget.html",
+     "desc": "Set a budget, plan spend over time with milestones, and read the Overview's progress against schedule, scope and cost."
+    },
+    {
+     "title": "Cost accounts",
+     "url": "https://cost.vudia.site/accounts.html",
+     "desc": "Named buckets of work, such as CAPEX and OPEX or a client, defined by JQL, that can carry their own rates and receive expenses."
+    },
+    {
+     "title": "Portfolios",
+     "url": "https://cost.vudia.site/portfolios.html",
+     "desc": "Group several cost projects for a combined view of cost, budget and team."
+    },
+    {
+     "title": "Reports",
+     "url": "https://cost.vudia.site/reports.html",
+     "desc": "Break a project or portfolio's cost down by period, person or account over a timeframe, save the report and export it to XLSX."
+    },
+    {
+     "title": "Sharing and ownership",
+     "url": "https://cost.vudia.site/sharing.html",
+     "desc": "Who can open or change a project or portfolio, how to share them, and how to hand a project to someone else."
+    },
+    {
+     "title": "Limits and behaviour",
+     "url": "https://cost.vudia.site/limits.html",
+     "desc": "Every limit and fixed behaviour in one place: sizes, caching, formats and what happens at the edges."
+    },
+    {
+     "title": "Permissions and access",
+     "url": "https://cost.vudia.site/permissions.html",
+     "desc": "Who can do what in the app, and which Jira permissions the app itself asks for."
+    },
+    {
+     "title": "Glossary",
+     "url": "https://cost.vudia.site/glossary.html",
+     "desc": "The terms used across these docs and in the app, in one place."
+    },
+    {
+     "title": "Troubleshooting",
+     "url": "https://cost.vudia.site/troubleshooting.html",
+     "desc": "Symptom, likely cause and what to do, for the problems people meet most often."
+    },
+    {
+     "title": "FAQ and support",
+     "url": "https://cost.vudia.site/faq.html",
+     "desc": "Short answers to common questions, and how to reach support."
+    },
+    {
+     "title": "What's new",
+     "url": "https://cost.vudia.site/changelog.html",
+     "desc": "User-visible changes to Cost Tracker, newest first."
+    }
+   ]
+  },
+  {
+   "slug": "time-in-status-gadget",
+   "name": "Time in Status + Gadget",
+   "alsoKnownAs": [
+    "Time in Status Gadget for Jira"
+   ],
+   "tagline": "How long every open issue has sat in its status, oldest first, right on your Jira dashboard",
+   "description": "Time in status for open work: how long each issue has been in progress, waiting in To Do or untouched, oldest first, flagged late or overdue against your team's own pace. A live dashboard gadget, not a history report.",
+   "listing": "https://marketplace.atlassian.com/apps/3362333248/time-in-status-gadget",
+   "docsHome": "https://aging.vudia.site/",
+   "privacy": "https://aging.vudia.site/privacy",
+   "security": "https://aging.vudia.site/security",
+   "facts": [
+    "Jira Cloud app, built on Atlassian Forge",
+    "Free for up to 10 users"
+   ],
+   "docPages": [
+    {
+     "title": "Overview and user guide",
+     "url": "https://aging.vudia.site/",
+     "desc": "A Jira dashboard gadget that lists the work nobody is moving: time in progress, time waiting to start or time since last update, against a threshold you set, plus a time-in-status panel on every issue."
+    },
+    {
+     "title": "Finding stuck issues in Jira with JQL",
+     "url": "https://aging.vudia.site/find-stuck-issues-jql",
+     "desc": "Five JQL queries that list the work nobody is moving, using nothing but Jira itself, and the point where a query stops being enough."
+    }
+   ]
+  }
+ ]
+}
