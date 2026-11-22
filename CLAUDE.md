@@ -73,8 +73,20 @@ marketplace-apps-status.md`).
   URL Inspection показал «URL is available to Google / Page can be indexed», затем статус стал «Success»,
   найдено 6 страниц. Почему был «Couldn't fetch», не установлено (документация Google называет и временные ошибки).
 - В списке Sitemaps того же свойства уже были `docs`, `aging`, `crm`, `cost`.vudia.site/sitemap.xml (подача
-  12–13.11.2026, Success; кто подавал — не знаю). Bing Webmaster Tools для `vudia.site` не подавался.
+  12–13.11.2026, Success; кто подавал — не знаю).
 - «Request indexing» для страниц не нажимал.
+
+## Bing Webmaster Tools (подан 22.11.2026 ~22:20 UTC)
+- Вход: «Sign in» → Google → `uvd020@gmail.com` (выбор Влада; в браузере также есть `uvdtest@gmail.com`). Согласие
+  Google — только имя, фото и почта (`openid profile email`). Аккаунт Bing Webmaster Tools у `uvd020` создан в этот
+  день (при входе показан экран «Welcome», сайтов не было).
+- «Import from GSC» не использовал (отдельный доступ Bing к Search Console) — сайт добавлен вручную: `https://vudia.site/`.
+- Проверка владения — CNAME в Cloudflare (DNS only): `32680e9b20700835e3ebc1152d81cf77` → `verify.bing.com`.
+  **Не удалять.** После «Verify» открылся дашборд сайта; явной надписи «Verified» не видел.
+- Sitemap `https://vudia.site/sitemap.xml` подан, статус «Submitted — Processing», найдено 0 (на момент записи);
+  Bing пишет, что данные появятся до 48 часов.
+- Раньше `docs.vudia.site` подтверждали в Bing другим аккаунтом (CNAME `3cdd5c…docs.vudia.site` → `verify.bing.com`);
+  чьим — не знаю. Обновить статус sitemap позже: `bing.com/webmasters/sitemaps?siteUrl=https%3A%2F%2Fvudia.site%2F`.
 
 В кабинете Cloudflare в окне Playwright вход — кнопка «Continue as uvd020@gmail.com using Google»
 на `dash.cloudflare.com/login` (пароль не нужен). Аккаунт Cloudflare: `308a8bafcbd481223525f928f1f5ffaa`.
