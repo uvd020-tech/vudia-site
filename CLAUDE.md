@@ -35,15 +35,21 @@ marketplace-apps-status.md`).
 - Репозиторий должен быть **публичным**: бесплатный GitHub Pages не публикует закрытые репозитории
   (`D:\Projects\Домен и сайты vudia.site.md`). Секретов здесь нет, только публичные тексты.
 
-## Публикация — частично (на 22.11.2026)
-Влад 22.11.2026 выбрал «Опубликовать на vudia.site». Сделано в тот же день (источник — вывод `gh`):
-- публичный репозиторий `uvd020-tech/vudia-site` (ветка `main`);
-- файл `CNAME` с `vudia.site`, коммит `a400524`;
-- GitHub Pages включены (`main`, `/`), `cname` = `vudia.site`; `uvd020-tech.github.io/vudia-site/`
-  отвечает 301 на `http://vudia.site/`.
+## Публикация — сделана (на 22.11.2026)
+Влад 22.11.2026 выбрал «Опубликовать на vudia.site». Сделано в тот же день:
+- публичный репозиторий `uvd020-tech/vudia-site` (ветка `main`), файл `CNAME` с `vudia.site`;
+- GitHub Pages включены (`main`, `/`), `cname` = `vudia.site`, сборка `built`;
+- Cloudflare (DNS only, TTL Auto), добавлены вручную через Playwright после входа Влада:
+  четыре A у `vudia.site` — `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+  (сверены с документацией GitHub и `api.github.com/meta`) и CNAME `www` → `uvd020-tech.github.io`.
+  MX и TXT (почта, SPF, DKIM, Google) не тронуты;
+- проверка: `http://vudia.site/` — 200, `robots.txt`, `sitemap.xml`, `llms.txt`, `about/`,
+  `apps/smart-defaults/` — 200, несуществующая страница — 404, `http://www.vudia.site/` — 301 на
+  `http://vudia.site/`.
 
-**Не сделано:** записи в Cloudflare. DNS-over-HTTPS 22.11.2026: у `vudia.site` только MX, A и CNAME нет,
-`www.vudia.site` не существует. Cloudflare в окне Playwright не залогинен (редирект на `/login`) —
-нужен вход Влада. Нужны записи (DNS only): четыре A у `vudia.site` — `185.199.108.153`,
-`185.199.109.153`, `185.199.110.153`, `185.199.111.153` и CNAME `www` → `uvd020-tech.github.io`.
-После появления записей — в настройках Pages дождаться проверки домена и включить `Enforce HTTPS`.
+**HTTPS:** 22.11.2026 сразу после записей `PUT .../pages https_enforced=true` отвечал «The certificate
+does not exist yet» (сертификат GitHub выпускает после появления DNS). Включение `Enforce HTTPS` — проверять
+`gh api repos/uvd020-tech/vudia-site/pages` (поле `https_enforced`).
+
+В кабинете Cloudflare в окне Playwright вход — кнопка «Continue as uvd020@gmail.com using Google»
+на `dash.cloudflare.com/login` (пароль не нужен). Аккаунт Cloudflare: `308a8bafcbd481223525f928f1f5ffaa`.
