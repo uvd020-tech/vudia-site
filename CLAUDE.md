@@ -61,5 +61,20 @@ marketplace-apps-status.md`).
 `Dbelokon-cpu` (Диана, логин назвал Влад; право `write`, приглашение отправлено, на момент записи не
 принято). Cloudflare — только `uvd020@gmail.com` (Super admin); для правки текстов Cloudflare не нужен.
 
+## Google Search Console (подан 22.11.2026, по часам консоли 23.11 00:5x МСК)
+- Свойство типа «Domain» `vudia.site` (`sc-domain:vudia.site`, покрывает все поддомены, http и https) создано
+  в аккаунте Google, открытом в окне Playwright (аватар «V», почту не видел). Владение подтверждено способом
+  «Domain name provider»: в Cloudflare добавлена TXT-запись `@` = `google-site-verification=Jhsh0PZZ…`.
+  **Эту запись не удалять** — иначе подтверждение слетит (так сказано в окне Google).
+- Кнопку «Start verification» (выдаёт Google доступ к DNS-аккаунту Cloudflare) не нажимал — выбрал ручную TXT-запись.
+- Другая TXT `google-site-verification=UFEz6l…` у `vudia.site` была раньше: токен отличается, значит выдан
+  другому аккаунту Google (чьему — не знаю). Обе записи сосуществуют.
+- Sitemap `https://vudia.site/sitemap.xml` подан; сразу после подачи статус был «Couldn't fetch», Live test в
+  URL Inspection показал «URL is available to Google / Page can be indexed», затем статус стал «Success»,
+  найдено 6 страниц. Почему был «Couldn't fetch», не установлено (документация Google называет и временные ошибки).
+- В списке Sitemaps того же свойства уже были `docs`, `aging`, `crm`, `cost`.vudia.site/sitemap.xml (подача
+  12–13.11.2026, Success; кто подавал — не знаю). Bing Webmaster Tools для `vudia.site` не подавался.
+- «Request indexing» для страниц не нажимал.
+
 В кабинете Cloudflare в окне Playwright вход — кнопка «Continue as uvd020@gmail.com using Google»
 на `dash.cloudflare.com/login` (пароль не нужен). Аккаунт Cloudflare: `308a8bafcbd481223525f928f1f5ffaa`.
