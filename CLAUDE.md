@@ -57,5 +57,9 @@ marketplace-apps-status.md`).
 и страницы сайта — 200, `http://vudia.site/` — 301 на https, `www` — 301 на `https://vudia.site/`.
 Продлевает сертификат GitHub сам (сроки продления не проверял).
 
+**Кто имеет доступ (на 22.11.2026 21:07 UTC):** репозиторий — `uvd020-tech` (admin) и приглашённый
+`Dbelokon-cpu` (Диана, логин назвал Влад; право `write`, приглашение отправлено, на момент записи не
+принято). Cloudflare — только `uvd020@gmail.com` (Super admin); для правки текстов Cloudflare не нужен.
+
 В кабинете Cloudflare в окне Playwright вход — кнопка «Continue as uvd020@gmail.com using Google»
 на `dash.cloudflare.com/login` (пароль не нужен). Аккаунт Cloudflare: `308a8bafcbd481223525f928f1f5ffaa`.
