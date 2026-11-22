@@ -47,9 +47,15 @@ marketplace-apps-status.md`).
   `apps/smart-defaults/` — 200, несуществующая страница — 404, `http://www.vudia.site/` — 301 на
   `http://vudia.site/`.
 
-**HTTPS:** 22.11.2026 сразу после записей `PUT .../pages https_enforced=true` отвечал «The certificate
-does not exist yet» (сертификат GitHub выпускает после появления DNS). Включение `Enforce HTTPS` — проверять
-`gh api repos/uvd020-tech/vudia-site/pages` (поле `https_enforced`).
+**HTTPS — включён 22.11.2026.** Сразу после записей в Cloudflare `PUT .../pages https_enforced=true`
+отвечал «The certificate does not exist yet»; 30 попыток в течение ~30 минут (раз в минуту) не помогли.
+Документация GitHub: DNS-проверка запускается при установке или смене домена, при зависании — убрать домен и
+задать заново. Домен я задал файлом `CNAME` до появления DNS-записей. Сделано: `PUT .../pages -F cname=null`,
+затем `PUT .../pages -f cname=vudia.site` (в истории два коммита от GitHub: `Delete CNAME`, `Create CNAME`;
+сборка по промежуточному коммиту `Delete CNAME` дала `errored`, по `dcca093` — `built`). После этого
+`https_enforced=true`, сертификат Let's Encrypt для `CN=vudia.site` до 20.02.2027. Проверка: `https://vudia.site/`
+и страницы сайта — 200, `http://vudia.site/` — 301 на https, `www` — 301 на `https://vudia.site/`.
+Продлевает сертификат GitHub сам (сроки продления не проверял).
 
 В кабинете Cloudflare в окне Playwright вход — кнопка «Continue as uvd020@gmail.com using Google»
 на `dash.cloudflare.com/login` (пароль не нужен). Аккаунт Cloudflare: `308a8bafcbd481223525f928f1f5ffaa`.
