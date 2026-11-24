@@ -72,7 +72,7 @@ def layout(title, description, path, body, blocks, og_type="website"):
 window.dataLayer = window.dataLayer || [];
 function gtag(){{dataLayer.push(arguments);}}
 gtag('js', new Date());
-gtag('config', '{GA_ID}', {{content_group: location.hostname}});
+gtag('config', '{GA_ID}');
 </script>
 </head>
 <body>
