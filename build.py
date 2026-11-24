@@ -9,6 +9,9 @@ import html
 import json
 import pathlib
 
+# Google Analytics 4 measurement ID (property vudia.site, added 2026-11-24).
+GA_ID = "G-HLG2699H0J"
+
 ROOT = pathlib.Path(__file__).resolve().parent
 SITE = json.loads((ROOT / "data" / "site.json").read_text(encoding="utf-8"))
 BASE = SITE["url"].rstrip("/")
@@ -64,6 +67,13 @@ def layout(title, description, path, body, blocks, og_type="website"):
 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 <link rel="stylesheet" href="/assets/style.css">
 {scripts}
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){{dataLayer.push(arguments);}}
+gtag('js', new Date());
+gtag('config', '{GA_ID}');
+</script>
 </head>
 <body>
 <a class="skip" href="#content">Skip to content</a>

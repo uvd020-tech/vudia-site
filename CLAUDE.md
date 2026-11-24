@@ -13,7 +13,9 @@ marketplace-apps-status.md`).
 - `build.py` (только стандартная библиотека): `python build.py` пересобирает `index.html`,
   `about/`, `apps/<slug>/`, `404.html`, `robots.txt`, `sitemap.xml`, `llms.txt`.
   Сгенерированные файлы лежат в git — GitHub Pages отдаёт корень репозитория.
-- `assets/style.css`, `assets/favicon.svg` — оформление; внешних шрифтов и запросов нет.
+- `assets/style.css`, `assets/favicon.svg` — оформление; внешних шрифтов нет.
+- Google Analytics 4 (добавила Диана 24.11.2026): тег `gtag.js` с `GA_ID = "G-HLG2699H0J"` в `build.py`,
+  попадает на все страницы. Ресурс — в аккаунте Google Дианы. Это единственный внешний запрос сайта.
 - Предпросмотр: `python -m http.server 8765` в корне репозитория, адрес `http://127.0.0.1:8765/`.
 
 ## Откуда взяты тексты (снимок 22.11.2026)
